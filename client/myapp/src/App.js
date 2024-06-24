@@ -27,7 +27,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Login />}></Route>
         <Route path="/register" element={<Register />}></Route>
-        <Route path="*" element={<Login />}></Route>
+       
         <Route
           path="*"
           element={
@@ -57,6 +57,7 @@ export default function App() {
                         ></Route>
                         {/* Ajoutez d'autres routes ici */}
                       </Route>
+                    <Route path="*" element={<Navigate to="/" replace/>}></Route>
                     </Routes>
                   </Row>
                 </Col>
