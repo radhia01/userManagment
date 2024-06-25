@@ -1,0 +1,226 @@
+/* sidebar */
+.sidebar {
+  background-color: #006ea6 !important;
+  width: 250px !important;
+  color: white !important;
+  padding: 20px !important;
+  height: 100vh;
+}
+.sidebar_title {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar_title2 {
+  font-size: 13px !important;
+  font-weight: bold !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar_col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px !important;
+  background-color: #006ea6;
+  margin-top: 10px !important;
+}
+.btn {
+  border-color: #006ea6 !important;
+  background-color: #006ea6 !important;
+}
+.pinkBtn {
+  background-color: #cc2c14 !important;
+}
+.header_title_login {
+  position: relative !important;
+  padding: 0px !important;
+  height: 220px !important;
+}
+
+.header_title_login img {
+  width: 100%;
+  height: 100% !important;
+  object-fit: cover;
+  margin: 0 !important;
+}
+.sidebar_btn {
+  display: "flex";
+  width: "80%";
+  padding: 10;
+  box-shadow: none !important;
+}
+/* navbar */
+.navbar {
+  background-color: #f1f1f1 !important;
+  height: 70px !important;
+  position: relative;
+}
+.navbar_search {
+  position: absolute;
+  width: 40% !important;
+  left: 0px;
+  background-color: blue;
+}
+.navbar_part2 {
+  position: absolute;
+  right: 40px !important;
+  width: 50px !important;
+  background-color: red;
+}
+.logo {
+  width: 50px !important;
+}
+/* login  */
+.login .header_title {
+  height: 65px !important;
+  background-color: white !important;
+}
+.login .login_card {
+  width: 500px !important;
+}
+.login .form_control {
+  height: 51px !important;
+}
+.login .form_control:focus {
+  box-shadow: none !important;
+  border-color: black !important;
+}
+.login .add_btn {
+  height: 35px !important;
+  width: 120px !important;
+  font-size: 12px !important;
+  margin-top: 20px !important;
+  border-radius: 0px !important;
+}
+.login .message {
+  margin-top: 20px !important;
+}
+.alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px !important;
+  font-weight: bold !important;
+}
+.login_card {
+  width: 400px !important;
+}
+.login_img {
+  width: 400px !important;
+  border-color: white !important;
+}
+/* Dashboard */
+.dashboard .dashboard_card {
+  background-color: white !important;
+  border-radius: 13px;
+  height: 120px;
+  color: crimson;
+}
+.dashboard .dashboard_card:hover {
+  transform: scale(1.2);
+}
+.dashboard .dashboard_status {
+  background-color: white !important;
+}
+.dashboard .dashboard_number {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+ .dashboard .part2 {
+  height: 220px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: start !important;
+}
+ .dashboard .part3 {
+  height: 250px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: start !important;
+}
+.dashboard .part4 {
+  height: 250px !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: start !important;
+}
+.dashboard .part5 {
+  height: 250px !important;
+  display: flex !important;
+  align-items: start !important;
+}
+.dashboard .title2 {
+  font-size: 18px !important;
+  font-weight: bold !important;
+  height: 80px !important;
+  margin-top: 180px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+/* Register */
+.register .header_title {
+  height: 65px !important;
+  background-color: white !important;
+}
+.register .register_card,
+.login .login_card {
+  width: 500px !important;
+}
+.col_task {
+  background-color: white !important;
+
+  font-size: 15px !important;
+  font-weight: bold !important;
+  margin-left: 10px !important;
+}
+.register .form_control {
+  height: 51px !important;
+}
+.register .add_btn {
+  height: 35px !important;
+  width: 120px !important;
+  font-size: 12px !important;
+  margin-top: 10px !important;
+  border-radius: 0px !important;
+}
+
+/* Error  */
+.error {
+  background-color: #7f151d !important;
+  position: fixed;
+  right: 30px;
+  top: 40px;
+  height: 40px;
+  min-width: 300px;
+  font-size: 15px;
+  color: white;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #ff293b;
+}
+/* Success Component  */
+.success {
+  background-color: #00690f !important ;
+  border: 1px solid #2be800;
+  position: fixed;
+  right: 30px;
+  top: 40px;
+  height: 40px;
+  min-width: 300px;
+  font-size: 15px;
+  color: white;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+}

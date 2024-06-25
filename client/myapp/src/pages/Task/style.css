@@ -1,0 +1,124 @@
+/* tasks list component */
+.tasklists .add_btn {
+  height: 30px !important;
+  font-size: 10px !important;
+  font-weight: bold !important;
+  color: white !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tasklists .add_icon {
+  font-size: 15px !important;
+  color: white;
+}
+.tasklists .select_text {
+  font-size: 12px !important;
+}
+.tasklists2 {
+  opacity: 0.1;
+}
+.notasks {
+  opacity: 0.1;
+}
+/* TakItem */
+.task_item .voir_plus {
+  height: 20px !important;
+  font-size: 8px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.task_item .task_card {
+  position: relative !important;
+}
+.task_item .header_title {
+  font-size: 16px !important;
+  font-weight: bold !important;
+}
+.task_item .task_paragraph {
+  font-size: 12px;
+  font-weight: bold;
+}
+.task_item .span_txt {
+  font-weight: 100 !important;
+  margin-left: 8px;
+}
+
+.task_item .task_btn {
+  background-color: #f1f1f1 !important;
+  border-color: #f1f1f1 !important;
+  font-size: 12px !important;
+  font-weight: bold !important;
+}
+/* form task */
+.task_form .header_title {
+  justify-content: start !important;
+  font-size: 18px !important;
+}
+.task_form .modal {
+  position: fixed !important;
+  display: block !important;
+  top: 0px !important;
+}
+
+.task_form .input_text {
+  font-size: 14px !important;
+}
+.task_form .add_btn {
+  font-size: 12px !important;
+  min-width: 20% !important;
+}
+.task_form .select_text {
+  font-size: 12px !important;
+}
+.task_form .label {
+  font-size: 14px !important;
+  font-weight: bold !important;
+  display: flex;
+  justify-content: start !important;
+  margin-top: 10px !important;
+}
+
+.task_form .add_btn {
+  height: 30px !important;
+  font-size: 10px !important;
+  font-weight: bold !important;
+  color: white !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.task_form .add_icon {
+  font-size: 15px !important;
+  color: white;
+}
+/* delete task component */
+
+.task_item .modal {
+  display: block;
+  position: fixed;
+  top: 30;
+}
+.task_item .modal_header {
+  background-color: #bf0f0f !important;
+  color: white !important;
+}
+.task_item .modal_body {
+  background-color: #bf0f0f !important;
+}
+
+.task_item .modal_confirm {
+  background-color: white !important;
+  color: black !important;
+  border-color: white !important;
+  font-size: 12px !important;
+  font-weight: bold !important;
+}
+.task_item .modal_reset {
+  background-color: white !important;
+  color: black !important;
+  border-color: white !important;
+  font-size: 12px !important;
+  font-weight: bold !important;
+}

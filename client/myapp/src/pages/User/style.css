@@ -1,0 +1,191 @@
+/* users component */
+.usersList .title {
+  font-size: 20px;
+  font-family: "Bitter", serif;
+}
+.usersList .modal {
+  display: block;
+  position: fixed;
+  top: 30px;
+}
+.usersList .modal_header {
+  background-color: #bf0f0f !important;
+  color: white !important;
+}
+.usersList .header_title {
+  font-size: 18px !important;
+}
+.usersList .modal_body {
+  background-color: #bf0f0f !important;
+}
+.usersList .modal_confirm {
+  background-color: white !important;
+  color: black !important;
+  border-color: white !important;
+  font-size: 12px !important;
+  font-weight: bold !important;
+}
+.usersList .modal_reset {
+  background-color: white !important;
+  color: black !important;
+  border-color: white !important;
+  font-size: 12px !important;
+  font-weight: bold !important;
+}
+.usersList .table {
+  margin-top: 50px !important;
+  padding: 10;
+}
+.usersList .confirm_btn {
+  background-color: black !important;
+  border: black !important;
+  width: 80px !important;
+  font-size: 12px !important;
+}
+.usersList .table td {
+  height: 45px !important;
+}
+.usersList .list_btn {
+  background-color: white !important;
+  color: black !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border-color: white !important;
+  height: 27px !important;
+}
+
+.usersList .add_btn {
+  height: 30px !important;
+  font-size: 12px !important;
+  font-weight: bold !important;
+  color: white !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.usersList .add_icon {
+  font-size: 15px !important;
+  color: white;
+}
+.usersList .delete_icon {
+  font-size: 24px !important;
+}
+.usersList .userimg {
+  width: 30px !important;
+  height: 25px !important;
+  border-radius: 50%;
+}
+/* AddEdit component  */
+.add_edit_user .header_title {
+  justify-content: start !important;
+  font-size: 18px !important;
+}
+.add_edit_user .input_text {
+  height: 43px !important;
+}
+.add_edit_user .add_btn {
+  font-size: 12px !important;
+  min-width: 20% !important;
+}
+
+.add_edit_user .input_text:focus {
+  box-shadow: none !important;
+  border-color: black !important;
+}
+.add_edit_user .modal {
+  position: fixed !important;
+  top: 30px !important;
+  left: 120px !important;
+}
+.add_edit_user .label {
+  font-size: 14px !important;
+  font-weight: bold !important;
+  text-align: start !important;
+  padding: 5px !important;
+}
+/* .link {
+  background-color: white !important;
+  color: black !important;
+  border: white !important;
+  margin-top: 15px !important;
+} */
+/* .projects {
+  display: flex !important;
+  font-size: 20px !important;
+  justify-content: start !important;
+  align-items: start !important;
+  font-weight: bold;
+}
+.btn_project {
+  background-color: white !important;
+  color: crimson !important;
+  font-size: 10px !important;
+  font-weight: bold !important;
+  border-color: crimson !important ;
+}
+.project-header {
+  background-color: crimson !important;
+  padding: 10px !important;
+}
+.delete_btn {
+  background-color: crimson !important;
+  border-color: crimson !important;
+}
+.delete_Model {
+  position: fixed !important;
+  top: 70px !important;
+  right: 70px !important;
+}
+
+.list_users {
+  position: fixed;
+  width: 20% !important;
+  background-color: red;
+  right: 490px;
+  top: 100px;
+  z-index: 4;
+} */
+/* profile componenent */
+.profile .profile_btn {
+  background-color: crimson !important;
+  color: white !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  border-color: crimson !important;
+}
+.profile .modal {
+  position: fixed !important;
+  top: 62px !important;
+  left: 120px !important;
+}
+.profile .imageProfile {
+  border-radius: 50% !important;
+}
+.profile .profile_btn2 {
+  background-color: black !important;
+  color: white !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  width: 40 !important;
+}
+.profile .update_btn {
+  background-color: black !important;
+  border-color: black !important;
+  color: white !important;
+  width: 120px !important;
+  height: 30px !important;
+  font-size: 10px !important;
+}
+.profile .input_text {
+  height: 50px !important;
+  font-size: 15px !important;
+}
+.profile .input_text:focus {
+  box-shadow: none !important;
+  border: 1px solid black !important;
+}
+.profile .label {
+  font-size: 14px !important;
+  font-weight: bold !important;
+}

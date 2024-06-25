@@ -1,0 +1,254 @@
+/* ProjectList component */
+.projects_dark {
+  opacity: 0.1;
+}
+.projects .add_btn {
+  height: 30px !important;
+  font-size: 10px !important;
+  font-weight: bold !important;
+  color: white !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projects .title {
+  font-size: 20px;
+  font-family: "Bitter", serif;
+}
+.projects .add_icon {
+  font-size: 15px !important;
+  color: white;
+}
+
+.btn_details {
+  background-color: #cc2c14 !important;
+  border-color: #cc2c14 !important;
+  width: 100% !important;
+  height: auto !important;
+  font-size: 13px !important;
+  font-weight: bold !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn2 {
+  background-color: #cc2c14 !important;
+  width: 200px !important;
+  border-color: #cc2c14 !important;
+  font-size: 13px !important;
+  font-weight: bold !important;
+}
+.project_details_dark {
+  opacity: 0.1;
+}
+
+/* 
+.btn4 {
+  background-color: white !important;
+  color: black !important;
+  width: 10% !important;
+  height: 30px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border-color: white !important;
+} */
+.alert_delete {
+  width: 40% !important ;
+}
+/* participantsList component  */
+.participants_list .add_btn {
+  height: 30px !important;
+  font-size: 10px !important;
+  font-weight: bold !important;
+  color: white !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.participants_list .add_icon {
+  font-size: 15px !important;
+  color: white;
+}
+.participants_list .confirm_btn {
+  background-color: black !important;
+  border: black !important;
+  width: 80px !important;
+  font-size: 12px !important;
+}
+.participants_list .btn3 {
+  background-color: black !important;
+  border-color: black !important;
+  font-size: 13px !important;
+  font-weight: bold !important;
+  width: 100px !important;
+}
+.participants_list .modal_body {
+  background-color: #bf0f0f !important;
+}
+.participants_list .form_select {
+  box-shadow: none !important;
+  border-color: black !important;
+}
+.participants_list .modal_header {
+  background-color: #bf0f0f !important;
+  color: white !important;
+}
+/* projectForm component  */
+.add_edit {
+  margin-bottom: 40px !important;
+  height: auto;
+  position: fixed;
+  top: 60px;
+  width: 550px;
+  right: 310px;
+  background-color: white !important;
+  border-radius: 10px;
+}
+.add_edit .header_title {
+  display: flex !important;
+  justify-content: space-between !important;
+  font-size: 18px !important;
+}
+.add_edit .calendar {
+  height: 35px !important;
+}
+.add_edit .label {
+  font-size: 14px !important;
+  font-weight: bold !important;
+  display: flex;
+  justify-content: start !important;
+  margin-top: 10px !important;
+}
+.add_edit .close_btn {
+  background-color: white !important;
+  border-color: white !important;
+  color: black !important;
+  font-size: 11px !important;
+  position: absolute !important;
+  right: 0px !important;
+}
+.add_edit .modal {
+  position: fixed !important;
+  top: 30px !important;
+  left: 120px !important;
+  display: block;
+}
+
+.add_edit .input_text {
+  height: 50px !important;
+  font-size: 12px !important;
+}
+.add_edit .input_text:focus {
+  box-shadow: none !important;
+  border: 1px solid black !important;
+}
+.add_edit .text_area {
+  font-size: 12px !important;
+}
+.add_edit .text_area:focus {
+  box-shadow: none !important;
+  border-color: black !important;
+}
+.add_edit .delete_btn {
+  background-color: red !important;
+  border-color: red !important;
+  height: 30px !important;
+  width: 120px !important;
+  font-size: 12px !important;
+  border-radius: 5px !important;
+  margin: 10px !important ;
+}
+.add_edit .add_btn {
+  height: 30px !important;
+  font-size: 12px !important;
+  font-weight: bold !important;
+  color: white !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add_edit .label {
+  font-size: 14px !important;
+  font-weight: bold !important;
+  text-align: start !important;
+  padding: 5px !important;
+}
+/* deleteProject component  */
+.delete_project .modal {
+  display: block;
+  position: fixed;
+  top: 30px;
+}
+.delete_project .modal_header {
+  background-color: #bf0f0f !important;
+  color: white !important;
+}
+.delete_project .modal_body {
+  background-color: #bf0f0f !important;
+}
+
+.delete_project .modal_confirm {
+  background-color: white !important;
+  color: black !important;
+  border-color: white !important;
+  font-size: 12px !important;
+  font-weight: bold !important;
+}
+.delete_project .modal_reset {
+  background-color: white !important;
+  color: black !important;
+  border-color: white !important;
+  font-size: 12px !important;
+  font-weight: bold !important;
+}
+.delete_project .input_text {
+  height: 43px !important;
+}
+
+.delete_project .input_text:focus {
+  box-shadow: none !important;
+  border-color: white !important;
+}
+.delete_project .alert_error_btn {
+  height: 30px;
+  font-size: 10px;
+  margin-left: 20px;
+}
+.delete_project .alert_error {
+  position: absolute;
+  top: 10px;
+  width: auto;
+  right: 150px;
+  display: flex;
+  justify-content: start;
+}
+/* DeletePartticipantModal component */
+.delete_participant .modal {
+  display: block !important;
+  position: fixed !important;
+  top: 30px !important;
+}
+.delete_participant .modal_header {
+  background-color: #bf0f0f !important;
+  color: white !important;
+}
+.delete_participant .modal_body {
+  background-color: #bf0f0f !important;
+}
+.delete_participant .modal_confirm {
+  background-color: white !important;
+  color: black !important;
+  border-color: white !important;
+  font-size: 12px !important;
+  font-weight: bold !important;
+}
+.delete_participant .modal_reset {
+  background-color: white !important;
+  color: black !important;
+  border-color: white !important;
+  font-size: 12px !important;
+  font-weight: bold !important;
+}
